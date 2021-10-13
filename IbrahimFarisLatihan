@@ -1,0 +1,63 @@
+<?php 
+// standar output
+// menggunakan perintah echo atau print untuk menampilkan sesuatu di website
+// var_dump
+
+// penulisan sintaks di PHP
+// 1. PHP di dalam HTML
+// 2. HTML di dalam PHP
+
+?>
+<?php 
+//cara pertama PHP didalam HTML
+?>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Noure PHP</title>
+	<h1>Sintaks PHP input <?php echo "melalui Html"; ?></h1>
+</head>
+<body>
+<h1></h1>
+</body>
+</html>
+
+<?php
+//cara kedua HTML di dalam PHP
+?>
+
+	echo <h1>Sintaks PHP input melalui HTML</h1>
+<?php
+
+//membuat variabel di PHP
+$nama_depan = "Ibrahim";
+$nama_belakang = "Faris mahardika";
+print $nama_depan ." ". $nama_belakang;
+
+?>
+<?php
+//Variabel terhubung / concatenation
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Variabel</title>
+		<p>Perkenalkan, nama saya ibrahim faris 
+			<?php echo $nama_depan . " " . $nama_belakang; ?> </p>
+
+	</head>
+<body>
+
+</body>
+</html>
+
+<?php
+//assignment
+// =., +=, -=, /=, %=, .-
+$a = 3;
+$b = 2;
